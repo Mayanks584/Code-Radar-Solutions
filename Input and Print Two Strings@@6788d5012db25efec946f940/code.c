@@ -4,6 +4,6 @@ int main(){
     char b;
     scanf("%s",&a);
     scanf("%s",&b);
-    char c = a and b;
+    char c = a && b;
     printf("You entered: %s")
 }

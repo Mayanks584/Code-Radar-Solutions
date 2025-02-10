@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main(){
+int main(){
     int a;
     int b;
     scanf("&d %d",&a,&b);
@@ -10,6 +10,7 @@ void main(){
     } else {
         printf("both are equal\n" );
     }
+    return 0;
 
     
 }

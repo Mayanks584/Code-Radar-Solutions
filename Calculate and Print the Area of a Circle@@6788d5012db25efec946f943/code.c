@@ -1,6 +1,7 @@
 #include<stdio.h>
-void main(){
+void main() {
     float n;
-    scanf("&f",&n);
-    printf("Area: %.2f",3.14*n*n);
+    printf("Enter the radius: ");
+    scanf("%f", &n); // Corrected format specifier to %f
+    printf("Area: %.2f\n", 3.14 * n * n); // Displays the area with 2 decimal places
 }

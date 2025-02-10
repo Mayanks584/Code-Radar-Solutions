@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<math stdio.h>
 int main(){
     float n;
     scanf("&f",&n);

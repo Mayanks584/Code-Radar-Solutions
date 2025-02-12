@@ -3,12 +3,12 @@ void main(){
     int a,b,c;
     scanf("%d%d%d",&a,&b,&c);
     if (a>b&&c){
-        printf(" /n",a);
+        printf("a\n");
     }
     else if(b>a&&c){
-        printf("\n",b);
+        printf("b\n");
     }
     else{
-        printf("\n",c);
+        printf("c\n");
     }
 }

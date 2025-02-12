@@ -18,7 +18,7 @@ int main() {
     }
     // If it's neither, it is not a letter
     else {
-        printf("The entered character is not an alphabet.\n");
+        printf("Not an alphabet\n");
     }
 
     return 0;

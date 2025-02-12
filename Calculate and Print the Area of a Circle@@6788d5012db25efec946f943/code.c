@@ -1,7 +1,7 @@
 # include <stdio.h>
-int main(){
+void main(){
     int r;
     scanf("%d", &r);
     int area = 3.14 * r * r;
-    printf("The value of r: %d\n is %f", area);
+    printf("Area:%.2f\n");
 }

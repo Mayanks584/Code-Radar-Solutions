@@ -11,7 +11,7 @@ void main(){
     else if(c>=70 && c<80){
         printf("C\n");
     }
-    else if(d>=60 && c<70){
+    else if(d>=60 && d<70){
         printf("D\n");
     }
     else{

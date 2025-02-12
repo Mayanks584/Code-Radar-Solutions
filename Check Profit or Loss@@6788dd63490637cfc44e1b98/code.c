@@ -6,7 +6,11 @@ void main(){
         profit = sp - cp;
         printf("Profit\n",profit);
     }
+    else if(cp>sp){
+        profit = cp - sp;
+        printf("Loss\n");
+    }
     else{
-        printf("loss\n");
+        printf("no loss\n");
     }
 }

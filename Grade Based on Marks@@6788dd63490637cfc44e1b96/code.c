@@ -3,16 +3,16 @@ void main(){
     int a,b,c,d,e,f;
     scanf("%d%d%d%d%d%d",&a,&b,&c,&d,&e,&f);
     if(a>=90){
-        printf("A\n%d");
+        printf("A\n");
     }
     else if(b>=80 && b<90){
-        printf("B\n%d");
+        printf("B\n");
     }
     else if(c>=70 && c<80){
-        printf("C\n%d");
+        printf("C\n");
     }
     else if(d>=60 && c<70){
-        printf("D%d\n");
+        printf("D\n");
     }
     else{
         printf("F\n");

@@ -8,6 +8,9 @@ void main(){
     // else if ( a >= 0 || b >= 0 ){
     //     printf("True\n");
     // }
+    else if(a==0 && b==0){
+        printf("True\n")
+    }
     else{
         printf("False\n");
     }

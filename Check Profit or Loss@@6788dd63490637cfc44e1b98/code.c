@@ -11,6 +11,6 @@ void main(){
         printf("Loss\n");
     }
     else{
-        printf("no loss\n");
+        printf("No Profit No Loss\n");
     }
 }

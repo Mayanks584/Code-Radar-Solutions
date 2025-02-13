@@ -2,7 +2,7 @@
 void main(){
     int a,b;
     scanf("%d%d",&a,&b);
-    if(a & b %3 ==0 && a & b % 5 ==0){
+    if(a & b %3 ==0 ){
         printf("Divisible by Both\n");
     }
     else if(a & b % 5 ==0){

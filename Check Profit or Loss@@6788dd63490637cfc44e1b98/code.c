@@ -1,15 +1,11 @@
 #include<stdio.h>
 void main(){
-    int sp,cp,profit,loss;
-    scanf("%d%d%d%d",&sp,&cp,&profit,&loss);
+    int sp,cp;
+    scanf("%d%d%d%d",&sp,&cp);
     if (sp>cp){
-        printf("Profit\n",profit);
-    }
-    else if(cp>sp){
-        loss = cp - sp;
-        printf("Loss\n",loss);
+        printf("Loss");
     }
     else{
-        printf("No Profit No Loss\n");
+        printf("Profit\n");
     }
 }

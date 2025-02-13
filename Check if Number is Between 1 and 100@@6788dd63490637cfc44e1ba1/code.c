@@ -6,6 +6,6 @@ void main(){
         printf("In Range\n");
     }
     else {
-        printf("Out of range\n");
+        printf("Out of Range\n");
     }
 }

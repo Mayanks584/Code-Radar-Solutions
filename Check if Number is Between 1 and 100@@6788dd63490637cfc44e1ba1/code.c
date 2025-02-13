@@ -2,7 +2,7 @@
 void main(){
     int a;
     scamf("%d",&a);
-    if (a == 1 && a<100){
+    if (a=<100){
         printf("In Range\n");
     }
     else {

@@ -2,12 +2,13 @@
 void main(){
     int sp,cp,profit,loss;
     scanf("%d%d%d%d",&sp,&cp,&profit,&loss);
-    if (sp>cp){
-        profit = sp - cp;
+     profit = sp - cp;
+    if (profit>0){
         printf("Profit\n",profit);
     }
-    else if(cp>sp){
-        loss = cp - sp;
+      loss = cp - sp;
+    else if(loss<0){
+      
         printf("Loss\n",loss);
     }
     else{

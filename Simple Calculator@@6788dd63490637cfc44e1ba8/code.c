@@ -7,6 +7,8 @@ int main() {
     // Taking user input
     printf("Enter an operator (+, -, *, /): ");
     scanf(" %c", &op);
+
+    printf("Enter two numbers: ");
     scanf("%lf %lf", &num1, &num2);
 
     // Performing operations using if-else

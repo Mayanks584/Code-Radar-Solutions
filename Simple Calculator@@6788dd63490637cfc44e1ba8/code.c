@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main(){
-    int a,b;
+    int a,b,res;
     char op;
-    scanf("%d%d",&a,&b);
+    scanf("%d%d%d",&a,&b,&res);
     printf("(+,-,*,/): ");
     scanf("%c",&op);
     if(op == '+'){

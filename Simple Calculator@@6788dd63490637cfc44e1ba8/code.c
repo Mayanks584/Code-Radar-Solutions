@@ -5,9 +5,12 @@ void main(){
     scanf("%d%d"&a,&b,);
     printf("(+,-,*,/): ");
     scanf("%c",&op);
-    if(op == +){
+    if(op == '+'){
         res=a+b;
         printf("%d",res);
         }
+         else {
+        printf("Invalid operator or incomplete logic.\n");
+    }
 
 }

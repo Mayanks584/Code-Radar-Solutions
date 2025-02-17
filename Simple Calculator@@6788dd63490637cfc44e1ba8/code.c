@@ -3,7 +3,7 @@ void main(){
     int a,b,res;
     char op;
     scanf("%d%d%d",&a,&b,&res);
-    printf("(+,-,*,/): ");
+    printf("%d: ");
     scanf("%c",&op);
     if(op == '+'){
         res=a+b;

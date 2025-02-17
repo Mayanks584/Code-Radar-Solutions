@@ -1,40 +1,13 @@
-#include <stdio.h>
-
-int main() {
+#include<stdio.h>
+void main(){
+    int a,b;
     char op;
-    double num1, num2, result;
-
-    // Taking user input
-    printf("Enter an operator (+, -, *, /): ");
-    scanf(" %c", &op);
-
-    printf("Enter two numbers: ");
-    scanf("%lf %lf", &num1, &num2);
-
-    // Performing operations using if-else
-    if (op == '+') {
-        result = num1 + num2;
-        printf("Result: %.2lf\n", result);
-    } 
-    else if (op == '-') {
-        result = num1 - num2;
-        printf("Result: %.2lf\n", result);
-    } 
-    else if (op == '*') {
-        result = num1 * num2;
-        printf("Result: %.2lf\n", result);
-    } 
-    else if (op == '/') {
-        if (num2 != 0) {
-            result = num1 / num2;
-            printf("Result: %.2lf\n", result);
-        } else {
-            printf("Error! Division by zero is not allowed.\n");
+    scanf("%d%d"&a,&b,);
+    printf("(+,-,*,/): ");
+    scanf("%c",&op);
+    if(op == +){
+        res=a+b;
+        printf("%d",res);
         }
-    } 
-    else {
-        printf("Invalid operator!\n");
-    }
 
-    return 0;
 }

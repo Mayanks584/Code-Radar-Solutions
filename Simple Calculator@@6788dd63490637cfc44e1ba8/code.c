@@ -7,7 +7,7 @@ void main(){
     scanf("%c",&op);
     if(op == '+'){
         res=a+b;
-        printf("%d",res);
+        printf("%d\n",res);
         }
          else {
         printf("Invalid operator or incomplete logic.\n");

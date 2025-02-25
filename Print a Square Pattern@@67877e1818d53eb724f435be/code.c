@@ -5,10 +5,10 @@ void main() {
 
     scanf("%d%d", &a,&b);
 
-    for (i = 0; i < a; i++) {  // Fixed variable name and condition
-        for (j = 0; j < b; j++) {  // Fixed loop syntax
-            printf("* ");  // Printing asterisks instead of using %d%d
+    for (i = 0; i < a; i++) {  
+        for (j = 0; j < b; j++) { 
+            printf("* ");  
         }
-        printf("\n");  // Moves to the next line after printing a row
+        printf("\n");  
     }
 }

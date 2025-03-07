@@ -40,6 +40,6 @@ void main(){
         printf("31");
         break;
         default:
-        print("not valid");
+        printf("not valid");
     }
 }

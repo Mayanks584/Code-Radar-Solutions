@@ -13,7 +13,7 @@ void main(){
         printf("31");
         break;
         case 4:
-        printf("31");
+        printf("30");
         break;
         case 5:
         printf("31");
@@ -40,6 +40,6 @@ void main(){
         printf("31");
         break;
         default:
-        printf("not valid");
+        printf("Invalid month");
     }
 }

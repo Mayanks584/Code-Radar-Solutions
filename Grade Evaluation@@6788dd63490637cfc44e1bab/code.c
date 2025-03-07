@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main(){
+int main(){
     char n;
     scanf("%d",&n);
     switch(n){
@@ -23,4 +23,5 @@ void main(){
 
 
     }
+    return 0;
 }

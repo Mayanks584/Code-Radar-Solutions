@@ -4,12 +4,12 @@ int main() {
     int n;
     scanf("%d", &n);
     
-    for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= n; j++) {
-            printf("%d%d ", i, j); // Added comma in printf
+    for (int i = 1; i <= n; i--) {
+        for (int j = 1; j <= i; j++) {
+            printf("* "); 
         }
-        printf("\n"); // Newline for better formatting
+        printf("\n"); 
     }
     
-    return 0; // Return statement for int main()
+    return 0; 
 }

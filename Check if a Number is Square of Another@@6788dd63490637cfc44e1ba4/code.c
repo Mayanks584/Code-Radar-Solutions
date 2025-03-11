@@ -2,11 +2,11 @@
 #include <math.h>
 
 int main() {
-    int n;
-    scanf("%d", &n);
+    int m;
+    scanf("%d", &m);
     
-    int m = sqrt(n);  // Find integer square root
-    if (m * m == n) { // Check if square of m equals n
+    int n = sqrt(m);  // Find integer square root
+    if (n* n == m) { // Check if square of m equals n
         printf("Yes\n");
     } else {
         printf("No\n");

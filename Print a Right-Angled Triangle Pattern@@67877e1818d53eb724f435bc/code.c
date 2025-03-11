@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &n);
     
     for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= n; j++) {
+        for (int j = 1; j <= i; j++) {
             printf("*"); // Added comma in printf
         }
         printf("\n"); // Newline for better formatting

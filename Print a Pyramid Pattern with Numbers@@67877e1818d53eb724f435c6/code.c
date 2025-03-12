@@ -1,16 +1,13 @@
-#include<stdio.h>
-void main(){
+#include <stdio.h>
+
+void main() {
     int n;
-    scanf("%d",&n);
-    for(int i=1;i<=n;i++){
-        // Print spaces for alignment
-        for(int j=1;j<=n-i;j++){
-            printf("  ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {  // Loop for rows
+        for (int j = 1; j <= i; j++) {  // Print numbers from 1 to i
+            printf("%d ", j);
         }
-        // Print the numbers in the pattern
-        for(int k=1;k<=2*i-1;k++){
-            printf("%d ",k);
-        }
-        printf("\n");
+        printf("\n");  // Move to the next line after each row
     }
 }

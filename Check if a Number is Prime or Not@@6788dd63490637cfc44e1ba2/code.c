@@ -8,7 +8,7 @@ void main(){
             a=1;
             break;
         }
-        if(n==0){
+        if(n==1){
             printf("invalid\n");
         }
         else if(a==0){

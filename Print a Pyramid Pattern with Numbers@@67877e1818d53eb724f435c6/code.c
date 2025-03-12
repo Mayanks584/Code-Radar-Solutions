@@ -4,10 +4,15 @@ void main() {
     int n;
     scanf("%d", &n);
 
-    for (int i = 1; i <= n; i++) {  // Loop for rows
-        for (int j = 1; j <= i; j++) {  // Print numbers from 1 to i
-            printf(" %d ", j);
+    for (int i = 1; i <= n; i++) {  
+        // Print spaces for alignment
+        for (int j = 1; j <= n - i; j++) {
+            printf("  ");  
         }
-        printf("\n");  // Move to the next line after each row
+        // Print numbers
+        for (int j = 1; j <= i; j++) {
+            printf("%d ", j);
+        }
+        printf("\n");
     }
 }

@@ -8,5 +8,6 @@ void main(){
             int d = (char)a;
             printf("%c",d);
         }
+        printf("\n");
     }
 }

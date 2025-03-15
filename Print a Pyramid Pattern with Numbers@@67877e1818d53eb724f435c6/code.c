@@ -13,7 +13,8 @@ void main() {
         printf("%d",k);
     }
     nst=nst+2;
-    printf("\n");
+   
     }
+     printf("\n");
 
     }

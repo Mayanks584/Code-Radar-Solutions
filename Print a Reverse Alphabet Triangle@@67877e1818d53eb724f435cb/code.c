@@ -9,6 +9,6 @@ void main(){
             int d  = (char)a;
             printf("%c",d);
         }
-        print("\n");
+        printf("\n");
     }
 }

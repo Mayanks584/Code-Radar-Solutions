@@ -10,11 +10,11 @@ void main() {
 
         }
     for(int k=1;k<=nst;k++){
-        printf("%d",k);
+        printf("%d ",k);
     }
     nst=nst+2;
-   
+    printf("\n");
     }
-     printf("\n");
+    
 
     }

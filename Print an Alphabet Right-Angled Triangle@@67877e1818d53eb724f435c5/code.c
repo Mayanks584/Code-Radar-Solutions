@@ -1,22 +1,12 @@
-#include <stdio.h>
-
-int main() {
-    char n;
-    scanf(" %c", &n);  // Added space before %c to handle newline characters
-    if (n >= 'a' && n <= 'z') {
-        for (char i = n; i >= 'a'; i--) {
-            for (char j = 'a'; j <= i; j++) {
-                printf("%c ", j);
-            }
-            printf("\n");
-        }
-    } else if (n >= 'A' && n <= 'Z') {
-        for (char i = n; i >= 'A'; i--) {
-            for (char j = 'A'; j <= i; j++) {
-                printf("%c ", j);
-            }
-            printf("\n");
+#include<stdio.h>
+void main(){
+    int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){
+            int a = n + 64;
+            int d = (char)a;
+            printf("%c",d);
         }
     }
-    return 0;
 }

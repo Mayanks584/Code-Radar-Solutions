@@ -11,7 +11,7 @@ void main(){
             printf("%d",k);
         }
         printf("\n");
-        nst=nst+1;
+        nst=nst+2;
     }
 
 }

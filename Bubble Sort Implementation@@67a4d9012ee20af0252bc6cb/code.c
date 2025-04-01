@@ -1,30 +1,41 @@
 #include <stdio.h>
 
+// Function to swap two elements
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+// Optimized Bubble Sort
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
+        int swapped = 0;  // Flag to check if swapping occurred
         for (int j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) { 
-                int temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
+                swap(&arr[j], &arr[j + 1]);
+                swapped = 1;  // Mark swap as done
             }
         }
+        if (!swapped) break;  // Stop early if already sorted
     }
 }
 
 int main() {
-    int arr[100], n = 0;  // Array with max size 100, n counts elements
+    int n;
+    scanf("%d", &n);  // Read the number of elements
+    int arr[n];
 
-    // Read input until the end
-    while (scanf("%d", &arr[n]) == 1) {  
-        n++;  // Increase count of elements
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);  // Read array elements
     }
 
-    bubbleSort(arr, n);  // Sort the array
+    bubbleSort(arr, n);
 
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);  // Print sorted array
     }
+    printf("\n");  // New line for better output formatting
 
     return 0;
 }

@@ -3,7 +3,7 @@
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
-            if (arr[j] > arr[j + 1]) {  // Corrected condition for sorting
+            if (arr[j] > arr[j + 1]) { 
                 int temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
@@ -13,16 +13,14 @@ void bubbleSort(int arr[], int n) {
 }
 
 int main() {
-    int n;
-    scanf("%d", &n);  // Take input for array size
+    int arr[100], n = 0;  // Array with max size 100, n counts elements
 
-    int arr[n];  // Declare array of size n
-
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);  // Read array elements
+    // Read input until the end
+    while (scanf("%d", &arr[n]) == 1) {  
+        n++;  // Increase count of elements
     }
 
-    bubbleSort(arr, n);  // Call the sorting function
+    bubbleSort(arr, n);  // Sort the array
 
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);  // Print sorted array
